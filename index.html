@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hayder Abas | Portfolio</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-black text-white overflow-x-hidden">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 glass">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold glow">Hayder.</h1>
+
+      <ul class="hidden md:flex gap-8 text-lg">
+        <li><a href="#home" class="hover:text-cyan-400">Home</a></li>
+        <li><a href="#about" class="hover:text-cyan-400">About</a></li>
+        <li><a href="#skills" class="hover:text-cyan-400">Skills</a></li>
+        <li><a href="#projects" class="hover:text-cyan-400">Projects</a></li>
+        <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="min-h-screen flex items-center justify-center px-6">
+
+    <div class="grid md:grid-cols-2 gap-10 items-center max-w-7xl">
+
+      <div data-aos="fade-right">
+        <h2 class="text-5xl md:text-7xl font-bold leading-tight">
+          Hi, I'm
+          <span class="text-cyan-400 glow">Hayder Abas</span>
+        </h2>
+
+        <p class="mt-6 text-gray-300 text-xl leading-relaxed">
+          Software Engineer & Web Developer building modern,
+          scalable, and visually powerful digital experiences.
+        </p>
+
+        <div class="mt-8 flex gap-4 flex-wrap">
+          <a href="#contact"
+            class="px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-bold transition">
+            Hire Me
+          </a>
+
+          <a href="assets/resume.pdf"
+            class="px-6 py-3 border border-cyan-400 rounded-xl hover:bg-cyan-400 hover:text-black transition">
+            Download CV
+          </a>
+        </div>
+
+        <div class="flex gap-6 mt-10 text-3xl">
+          <a href="https://github.com/zainbest" target="_blank">
+            <i class="fab fa-github hover:text-cyan-400"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/hayder-abas-mohammed" target="_blank">
+            <i class="fab fa-linkedin hover:text-cyan-400"></i>
+          </a>
+
+          <a href="https://t.me/rdeyha" target="_blank">
+            <i class="fab fa-telegram hover:text-cyan-400"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="flex justify-center" data-aos="fade-left">
+
+        <div class="relative image-container">
+          <div class="circle"></div>
+
+          <img
+            src="assets/hayder.jpg"
+            alt="Hayder"
+            class="profile-image"
+          />
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-28 px-6">
+    <div class="max-w-6xl mx-auto">
+
+      <h2 class="section-title" data-aos="fade-up">
+        About Me
+      </h2>
+
+      <div class="glass p-10 mt-10 rounded-3xl" data-aos="zoom-in">
+
+        <p class="text-gray-300 leading-loose text-lg">
+          I am a Computer Science & Software Engineering student at
+          Adama Science and Technology University (ASTU).
+
+          I specialize in modern web development, software engineering,
+          automation systems, scalable infrastructure, and high-performance
+          digital experiences.
+
+          I work with Python, C++, JavaScript, React, Tailwind CSS,
+          and backend integrations to build professional systems and products.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-28 px-6 bg-[#050505]">
+
+    <div class="max-w-6xl mx-auto">
+      <h2 class="section-title" data-aos="fade-up">
+        Skills
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8 mt-14">
+
+        <div class="skill-card" data-aos="flip-left">
+          <i class="fab fa-python text-5xl text-cyan-400"></i>
+          <h3>Python</h3>
+        </div>
+
+        <div class="skill-card" data-aos="flip-left">
+          <i class="fab fa-js text-5xl text-yellow-400"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card" data-aos="flip-left">
+          <i class="fas fa-code text-5xl text-blue-400"></i>
+          <h3>C++</h3>
+        </div>
+
+        <div class="skill-card" data-aos="flip-left">
+          <i class="fab fa-react text-5xl text-cyan-300"></i>
+          <h3>React</h3>
+        </div>
+
+        <div class="skill-card" data-aos="flip-left">
+          <i class="fab fa-html5 text-5xl text-orange-400"></i>
+          <h3>HTML/CSS</h3>
+        </div>
+
+        <div class="skill-card" data-aos="flip-left">
+          <i class="fab fa-github text-5xl text-white"></i>
+          <h3>GitHub</h3>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-28 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+      <h2 class="section-title" data-aos="fade-up">
+        Projects
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-10 mt-14">
+
+        <div class="project-card" data-aos="zoom-in">
+          <h3>Vertex Accessibility Portal</h3>
+
+          <p>
+            High-performance accessibility-focused web platform
+            designed for scalable digital infrastructure.
+          </p>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <h3>Advanced Systems Programming</h3>
+
+          <p>
+            Complex C++ systems for linked lists, arrays,
+            memory optimization, and algorithm efficiency.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-28 px-6 bg-[#050505]">
+
+    <div class="max-w-4xl mx-auto text-center">
+
+      <h2 class="section-title" data-aos="fade-up">
+        Contact Me
+      </h2>
+
+      <div class="glass p-10 rounded-3xl mt-10" data-aos="fade-up">
+
+        <p class="text-xl text-gray-300">
+          Let's build something amazing together.
+        </p>
+
+        <div class="mt-8 space-y-4">
+
+          <p>
+            <i class="fas fa-envelope text-cyan-400"></i>
+            haybest877@gmail.com
+          </p>
+
+          <p>
+            <i class="fab fa-telegram text-cyan-400"></i>
+            @rdeyha
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-500">
+    © 2026 Hayder Abas. All rights reserved.
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
